@@ -50,7 +50,7 @@ flask_qt_server/
 # 3️⃣ Página Web
 
 ## 📄 `web/index.html`
-
+## 📄 `web/style.css`
 ## 📄 `web/script.js`
 
 
