@@ -1,0 +1,54 @@
+/* Corpo da página */
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container central */
+.container {
+    text-align: center;
+}
+
+/* Texto animado */
+#texto {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animação do texto */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Círculo animado */
+.circulo {
+    width: 80px;
+    height: 80px;
+    margin: 30px auto;
+    border-radius: 50%;
+    background: #38bdf8;
+
+    animation: girar 2s linear infinite;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
